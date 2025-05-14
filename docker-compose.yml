@@ -3,5 +3,5 @@
 services:
   exercises:
     build: .
-    image: hexletbasics/exercises-go:cached
+    image: hexletbasics/exercises-go:upgrade-test
     command: make check
